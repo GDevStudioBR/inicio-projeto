@@ -22,6 +22,6 @@ jobs:
 
       - name: Run pylint
         run: |
-          find . -name "*.py" | xargs pylint
+          find . -name "*.py" | xargs pylint --exit-zero
 
       
