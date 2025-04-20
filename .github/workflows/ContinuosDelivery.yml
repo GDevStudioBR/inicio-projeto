@@ -1,8 +1,9 @@
 name: Continuous Integration
+
 on:
   push:
-  branches:
-    - main # ou qualquer outra branch
+    branches:
+      - main # ou qualquer outra branch
 
 jobs:
   deliver:
