@@ -21,4 +21,5 @@ jobs:
         run: pip install pylint
 
       - name: Run pylint
-        run: pylint GDevStudioBR/inicio-projeto
+        run: pylint GDevStudioBR/inicio-projeto/*.py
+
