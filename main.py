@@ -1,1 +1,1 @@
-print('boa tarde')
+print('boa tard')
